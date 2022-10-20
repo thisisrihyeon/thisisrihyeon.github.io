@@ -1,0 +1,147 @@
+@charset "utf-8";
+
+*{
+    margin: 0;
+    padding: 0;
+    color: black;
+}
+li{
+    list-style: none;
+}
+a{
+    display: block;
+    text-decoration: none;
+}
+.wrapper{
+    width: 1200px;
+    height: 700px;
+    margin: 0 auto;
+}
+/********** header **********/
+header{
+    height: 100px;
+    display: flex;
+    background-color: skyblue;
+}
+header .h-logo{
+    width: 20%;
+}
+header nav{
+    width: 50%;
+    margin-left: 250px;
+}
+
+/********** nav **********/
+nav > ul{
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+}
+nav .main-menu{
+    width: 25%;
+    position: relative;
+    line-height: 40px;
+    z-index: 10;
+    margin-top: 30px;
+}
+nav .main-menu > a{
+    font-weight: bold;
+    background-color: #fff;
+}
+nav .main-menu > a:hover{
+    background-color: dodgerblue;
+    color: white;
+}
+nav .main-menu .sub-menu{
+    background-color: #fff;
+}
+
+
+
+
+/********** slide **********/
+.slide{
+    height: 300px;
+    position: relative;
+}
+.slide img{
+    display: block;
+    position: absolute;
+}
+
+/********** contents **********/
+.contents{
+    height: 200px;
+    display: flex;
+}
+.contents .tab{
+    width: 35%;
+}
+.contents .banner{
+    width: 35%;
+}
+.contents .link{
+    width: 30%;
+}
+
+/********** tab **********/
+.tab .tab-menu{
+    display: flex;
+}
+.tab .tab-menu > li:first-child{
+background-color: rgb(192, 227, 255);
+}
+.tab .tab-menu a{
+    padding: 8px;
+}
+/********** notice **********/
+.notice a{
+    display: flex;
+    justify-content: space-between;
+    padding: 8px;
+    background-color: rgb(192, 227, 255);
+}
+.notice a{
+    /* padding: 10px; */
+}
+.notice p{
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+/********** gallery **********/
+
+.gallery{
+    display: flex;
+    justify-content: space-around;
+    display: none;
+}
+/********** banner **********/
+
+/********** link **********/
+
+/********** footer **********/
+footer{
+    height: 100px;
+    display: flex;
+    background-color: skyblue;
+}
+footer .f-logo{
+    width: 20%;
+}
+footer .f-section{
+    width: 80%;
+}
+footer .f-section .f-menu{
+    height: 50%;
+}
+footer .f-section .f-menu ul{
+    display: flex;
+    justify-content: space-around;
+    line-height: 50px;
+}
+footer .f-section .copyright{
+    height: 50%;
+    text-align: center;
+    line-height: 50px;
+}
