@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="ko">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1" />
+        <link rel="stylesheet" type="text/css" href="./css/style.css">
+        <title>RIHYEON'S Portfolio</title>
+    </head>
+    <body>
+        <div class="wrapper">
+            <section id="Email-popup">
+                    <button type="submit" class="xbtn">
+                        X
+                    </button>
+                <h1>Contact me !</h1>
+                <form
+                    class="gform"
+                    method="POST"
+                    data-email="rh_98@naver.com"
+                    action="https://script.google.com/macros/s/AKfycbxP_toGmjDKqVwSVPYrUGvl3sKDlwXRPEp-JnmFxCFq5tjpnfzwMRVIyWCEji1Ij4jG_Q/exec"
+                >
+                    <fieldset class="form-elements">
+                        <div class="box-input">
+                            <label for="userName">Name</label>
+                            <input
+                                type="text"
+                                id="userName"
+                                name="name"
+                                placeholder="이름입력"
+                            />
+                        </div>
+                        <div class="box-input">
+                            <label for="userEmail">Email-Address</label>
+                            <input
+                                type="email"
+                                id="userEmail"
+                                name="name"
+                                placeholder="이메일입력"
+                            />
+                        </div>
+                        <div class="box-input">
+                            <label for="userMessage">Message</label>
+                            <textarea name="message" id="userMessage"></textarea>
+                        </div>
+                        <div class="box-input">
+                            <button type="submit" class="btn-send">
+                                Send Message
+                            </button>
+                        </div>
+                    </fieldset>
+                    <div style="display: none" class="thankyou_message">
+                        <p>
+                            메일이 성공적으로 보내졌습니다. <br>빠른 시일 내에 답변
+                            드리겠습니다.
+                        </p>
+                    </div>
+                </form>
+            </section>
+            <section class="sec1">
+                <nav>
+                    <div class="title">
+                        <h1><a href="#">RIHYEON'S PORTFOLIO</a></h1>
+                    </div>
+                    <div class="sub-title">
+                    <h3><a href="#">Intro</a></h3>
+                    <h3><a href="#sec2">About me</a></h3>
+                    <h3><a href="#sec3">Projects</a></h3>
+                    <h3><a href="#sec4">Contact</a></h3>
+                    </div>
+                </nav>
+                <p>안녕하세요.<br>
+                저는 천천히 성장중인<br>
+                안리현 입니다 :)</p>
+                <img src="./images/KakaoTalk_20220708_161737827.jpg">
+                <div class="line"></div>
+            </section>
+            <section class="sec2" id="sec2">
+                    <div class="img">
+                        <img src="./images/화면 캡처 2022-10-25 170059.png">
+                    </div>
+                    <div class="contents">
+                        <ul>
+                            <li>Name</li>
+                            <li>Phone</li>
+                            <li>Email</li>
+                            <li>Education</li>
+                            <li>License</li>
+                        </ul>
+                    </div>
+                    <div class="detail">
+                        <ul>
+                            <li>안리현</li>
+                            <li>010 9940 3558</li>
+                            <li>rh_98@naver.com</li>
+                            <li>UI/UX 프론트엔드 개발자 과정 수료</li>
+                            <li>자동차운전면허증 2종보통 </li>
+                        </ul>
+                    </div>
+            </section>
+            <section class="sec3" id="sec3">
+                <h1>✹ Projects ✹</h1>
+                <div class="boxes">
+                    <div class="first">
+                        <div>
+                            <a href="https://thisisrihyeon.github.io/nonefiction/index.html" target="_blank" rel="noopener noreferrer">
+                            <img src="./images/숲.png">
+                            </a>
+                        </div>
+                        <div>
+                            <a href="https://thisisrihyeon.github.io/%EA%B7%B8%EB%A6%AC%EB%93%9C%20%EB%A0%88%EC%9D%B4%EC%95%84%EC%9B%83/index.html" target="_blank" rel="noopener noreferrer">
+                            <img src="./images/빈티지조명.jpg">
+                            </a>
+                        </div>
+                        <div>
+                            <a href="https://thisisrihyeon.github.io/%EC%9B%B9%EB%94%94%EC%9E%90%EC%9D%B8%20%EA%B8%B0%EB%8A%A5%EC%82%AC%20PROJECT/C-3/index.html" target="_blank" rel="noopener noreferrer">
+                            <img src="./images/slide1.png">
+                            </a>
+                        </div>
+                    </div>
+                    <div class="second">
+                        <div></div>
+                        <div></div>
+                        <div></div>
+                    </div>
+                </div>
+            </section>
+            <section class="sec4" id="sec4">
+                <div class="sec4-wrap">
+                    <div>
+                        <p>Thank you for looking at my portfolio.<br>
+                        If you have any questions, please contact me.</p>
+                    </div>
+                    <p class="Email">rh_98@naver.com</p>
+                    <button class="button">Contact me !</button>
+                    <p class="last">@2020 Portfolio</p>
+                </div>
+            </section>
+        </div>
+        <script src="./js/form-submission-handler.js"></script>
+        <script src="./js/script.js"></script>
+    </body>
+</html>
